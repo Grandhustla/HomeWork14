@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: gev
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDTJn5N3P/d53Do5ru+WeB29EjUBTqHv3XdzYS+o9s+PQAPO7sxi9pQ4baF1OLXolLmGMnCg1QUPOcb+/Bo+teB8XbVnYu7qs3J8JsVX4brDh5ZFjt9fqWAP44yAhgnwpvQ0ogMjb+2iXE6iTOiwvtKDzkWXM9SkTUcroNomKlFbaQR8+PwSfu9zkaGfjDZ5nvFUzwwQWQP4S+6XP1kdGJ+17aTQcG0USQUeOVjkd8E/UFvTgMlGLBWrrr8P4T9Sbp9CTP11C7kgjEjlxSukGlvOHhsWq79Xu76Gc/IiWlkcKQy1LlQAo/12P+dQrBj39+oZdQL0FWkwqkNTk/Li0gKT75hg6mwqF2nA/dl1nGdN+y0kcs5fM/uhC2c5MwW1a8qnfMEkdpOqFImlrY89Qkphlpbv+IRC6Oa+SKN2zohlG0UNsZ6uq0fh2r3Zy64Q7DokmKXe7/DeHpJukqeYL8TJjgI/geRMdAb0YKKOqmbuob7n8nSp7NFL8n/GRHGoUE= gidzinskiy@mbp-evgenij
