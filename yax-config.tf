@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "yandex" {
-  token = "t1.9euelZqJzs7Jjp2Zj83LlIuSmI6Yyu3rnpWai5XIismYjc3JmJbKz8-al5bl8_dNVEtf-e9EHgo9_N3z9w0DSV_570QeCj38.gI2D0mfS3kM02RcnxsXs0w_KlXW_upimRL1GQvHM3boSzzmk_i96fV3SRZ054vy7FfLxdKZ8RNmZR2t1jMMVAg"
+  token = "****************"
   cloud_id = "b1g085gjne6qvhdpm5pc"
   folder_id = "b1gm8oivbl6s4adhu350"
   zone = "ru-cantral1-a"
